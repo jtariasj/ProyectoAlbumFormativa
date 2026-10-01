@@ -5,6 +5,7 @@ function GaleriaProductos({productos}) {
 
         {productos.map((producto) => (
             <TarjetaProducto
+                key={producto.id}
                 imagen={producto.imagen}
                 nombre={producto.nombre}
                 descripcion={producto.descripcion}

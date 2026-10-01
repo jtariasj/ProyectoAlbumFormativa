@@ -1,11 +1,11 @@
-function Header() {
+function Header({ nombre, subtitulo, itemsMenu}) {
 
 
 
   return(
     <>
     <header id ="encabezado">
-        <h1>{titulo}</h1>
+        <h1>{nombre}</h1>
         <h3>{subtitulo}</h3>
         <nav id = "menu-principal">
             <ul>

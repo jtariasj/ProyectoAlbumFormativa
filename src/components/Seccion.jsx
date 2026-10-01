@@ -8,3 +8,4 @@ function Seccion({id,titulo,children}) {
     </>
   )
 }
+export default Seccion;

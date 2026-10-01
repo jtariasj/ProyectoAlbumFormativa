@@ -1,11 +1,11 @@
-function TarjetaProducto({imagen,titulo,descripcion,precio}) {
+function TarjetaProducto({imagen,nombre,descripcion,precio}) {
 
   return(
     <article className="tarjeta">
         <div className = "espacio-imagen">
             <img src={imagen}/>
         </div>
-        <h3>{titulo}</h3>
+        <h3>{nombre}</h3>
         <p className="descripcion">
             {descripcion}
         </p>
