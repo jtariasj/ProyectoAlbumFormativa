@@ -1,4 +1,16 @@
+import react, {useState} from "react";
+
 function TarjetaProducto({imagen,nombre,descripcion,precio}) {
+
+    const [meGusta, setMeGusta] = useState(false)
+
+    const alternar = () => {
+        if (meGusta === false) {
+            setMeGusta(true)
+        } else {
+            setMeGusta(false)
+        }
+    }
 
   return(
     <article className="tarjeta">
@@ -10,6 +22,17 @@ function TarjetaProducto({imagen,nombre,descripcion,precio}) {
             {descripcion}
         </p>
         <p className = "precio">${precio} CLP</p>
+
+        <button
+            onClick = {alternar}
+            style = {
+                {
+                    backgroundColor: meGusta ? "#bbb" : "#ddd",
+                    color: "#222",
+                    fontWeight: "bold"
+                }
+            }
+        > Siempre pasa </button>
     </article>
   );
 }
