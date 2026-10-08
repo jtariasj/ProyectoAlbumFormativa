@@ -1,6 +1,3 @@
-// grupo 16
-
-import "./App.css"
 
 import { Routes, Route } from "react-router-dom";
 
@@ -10,8 +7,6 @@ import Home from "./views/Home.jsx";
 import Albums from "./views/Albums.jsx";
 
 import itemsMenu from "./data/itemsMenu.js";
-
-
 
 
 function App() {
@@ -25,7 +20,7 @@ function App() {
 
             <Routes>
                 <Route path={ "/" } element={ <Home />} />
-                <Route path={ "/albums" } element= { <Albums /> } />
+                <Route path={ "/albumes" } element= { <Albums /> } />
                 <Route />
                 <Route />
             </Routes>
