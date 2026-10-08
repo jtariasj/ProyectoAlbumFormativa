@@ -7,8 +7,7 @@ function Albums() {
     return (
         <main>
             <>
-
-                <GaleriaProductos productos={ productos }/>
+                <GaleriaProductos productos={ productos } />
             </>
         </main>
     )
