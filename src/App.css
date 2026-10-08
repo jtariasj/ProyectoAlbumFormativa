@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 body {
     margin: 0;
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .logo {
-    width: 150px;       
-    height: auto;      
-    margin-right: 15px; 
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
 }
+
 #Menu {
     background-color: #d6d6d6;
     text-align: center;
@@ -47,36 +49,13 @@ body {
     color: #555;
 }
 
-.navegacion ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #222;
-}
-
-.navegacion ul li {
-    margin: 0 15px;
-}
-
-.navegacion ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.navegacion ul li a:hover {
-    color: #f39c12;
-}
-
 #destacados {
     margin: 30px auto;
     padding: 20px;
     width: 80%;
     background-color: #f0f0f0;
     border: 2px solid #333;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 #destacados h2 {
@@ -102,12 +81,12 @@ body {
 }
 
 button {
-  width: 65px;
-  height: 65px;
-  font-size: 22px;
-  border-radius: 8px;
-  background-color: #ddd;
-  margin: 2px;
+    width: 65px;
+    height: 65px;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: #ddd;
+    margin: 2px;
 }
 
 .calculadora {
@@ -138,6 +117,7 @@ button {
     background-color: #ddd;
     margin: 2px;
 }
+
 .seccion {
     background-color: rgb(226, 226, 226);
     padding: 20px;
@@ -163,7 +143,7 @@ button {
 }
 
 .tarjeta {
-    height: 320px;
+    height: 360px;
     width: 220px;
     border: 1px solid #999;
     border-radius: 6px;
@@ -172,6 +152,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 .tarjeta h3 {
@@ -193,8 +174,17 @@ button {
     margin-top: 8px;
 }
 
+.tarjeta button {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 8px;
+    font-size: 1rem;
+}
+
 .galeria {
     display: flex;
+    align-items: stretch;
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
