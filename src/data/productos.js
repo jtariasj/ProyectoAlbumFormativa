@@ -1,12 +1,33 @@
-import disney from "../assets/img/Adisney.webp"
-import dragonBall from "../assets/img/Adragon.webp"
-import harrypotter from "../assets/img/Aharrypotter.webp"
-import marvel80 from "../assets/img/Amarvel.jpg"
-import fifa2026 from "../assets/img/Amundial.jpg"
-import pokemon from "../assets/img/Apokemon.jpg"
-import starWars from "../assets/img/Astarwars.webp"
+/**
+ * Imágenes utilizadas por los productos iniciales del catálogo.
+ *
+ * Las imágenes importadas desde `assets` son procesadas por Vite
+ * y pueden utilizarse directamente como valor de la propiedad `imagen`.
+ */
+import disney from "../assets/img/Adisney.webp";
+import dragonBall from "../assets/img/Adragon.webp";
+import harrypotter from "../assets/img/Aharrypotter.webp";
+import marvel80 from "../assets/img/Amarvel.jpg";
+import fifa2026 from "../assets/img/Amundial.jpg";
+import pokemon from "../assets/img/Apokemon.jpg";
+import starWars from "../assets/img/Astarwars.webp";
 
-
+/**
+ * Catálogo de productos disponibles en la aplicación.
+ *
+ * Cada producto contiene información necesaria para mostrarlo
+ * en el catálogo, como su nombre, precio, descripción, categoría
+ * e imagen.
+ *
+ * @type {{
+ *   id: number,
+ *   nombre: string,
+ *   precio: number,
+ *   descripcion: string,
+ *   categoria: string,
+ *   imagen: string
+ * }[]}
+ */
 const productos = [
     {
         id: 1,
@@ -227,4 +248,8 @@ const productos = [
     }
 ];
 
-export default productos
+/**
+ * Exporta el catálogo de productos para que pueda ser utilizado
+ * por los diferentes componentes de la aplicación.
+ */
+export default productos;

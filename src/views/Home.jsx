@@ -10,7 +10,6 @@ import itemsMenu from "../data/itemsMenu.js"
 function Home() {
     return (
         <>
-            <Header nombre="Album de prueba" subtitulo="Completalos todos" itemsMenu={ itemsMenu } />
             <main>
                 <Body />
             </main>
